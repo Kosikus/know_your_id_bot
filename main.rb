@@ -7,7 +7,7 @@ Dotenv.load
 # Замените на ваш токен
 TOKEN = ENV['TELEGRAM_BOT_TOKEN']
 # Замените на ваш ID (ID вашего чата в боте)
-MY_CHAT_ID = '378860110'
+MY_CHAT_ID = ENV['MY_CHAT_ID']
 
 def log_user_data(user)
   # Записываем данные пользователя в файл
